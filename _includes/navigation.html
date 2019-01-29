@@ -3,7 +3,7 @@
   <ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">
       {% for item in site.data.navigation %}
         <li class="govuk-header__navigation-item">
-          <a class="govuk-header__link" href="{{ item.link }}" data-install="{{ item.name }}">
+          <a class="govuk-header__link" href="{{ item.link| prepend: site.baseurl }}" data-install="{{ item.name }}">
             {{ item.name }}
           </a>
         </li>
