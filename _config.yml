@@ -23,7 +23,8 @@ baseurl: "/jekyll" # the subpath of your site, e.g. /blog
 url: "http://mcoulthurst.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
+phase: Prototype
+phase_description: This is a Prototype.
 
 collections:
   authors:
