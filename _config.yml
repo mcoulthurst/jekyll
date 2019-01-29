@@ -29,6 +29,8 @@ phase_description: This is a Prototype.
 collections:
   authors:
     output: true
+  weeknotes:
+    output: true
 
 # Build settings
 markdown: kramdown
@@ -51,6 +53,10 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "weeknotes"
+    values:
+      weeknotes: "true"
       
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
